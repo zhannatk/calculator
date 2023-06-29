@@ -24,7 +24,7 @@ public class CalculatorService implements CalculatorServiceable {
     public String minus(Integer num1, Integer num2) {
         int result = 0;
         if (num1 == null || num2 == null) {
-            System.out.println("Error - not all parameters have been applied");
+            System.out.println("Error -  not all parameters have been applied");
         } else {
             result = num1 - num2;
         }
